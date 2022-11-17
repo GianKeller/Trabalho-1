@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+ <head>
+    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>House Center Arquitetura e Engenharia</title>
+ </head>
+<body id="ctt">
+    <header class="topo">            
+        <h1 id="titulo">House Center Arquitetura e Engenharia</h1>
+        <nav>           
+            <ul id="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="pag/contato.html">Contato</a></li>
+            </ul>
+        </nav>  
+    </header>
+    <main>
+    <section>
+        <form class="formulario" method="post" action="enviaEmail.php">
+            <h1 class="title"><i class="icon icon-mail-1"></i> Fale Conosco</h1>
+             
+             <label class="label">
+                 <span>Nome</span>
+                 <input type="text" name="nome" class="campo" placeholder="Digite seu nome" required=""/>
+             </label>
+             
+             <label class="label">
+                 <span>E-mail</span>
+                 <input type="email" name="email" class="campo" placeholder="Digite seu e-mail" required=""/>
+             </label>
+             
+             <label class="label">
+                 <span>Assunto</span>
+                 <input type="text" name="assunto" class="campo" placeholder="Digite um assunto" required=""/>   
+             </label>
+             
+             <label class="label">
+                 <span>Mensagem</span>
+                 <textarea name="mensagem" class="campo" placeholder="Deixe sua mensagem" required=""></textarea>
+             </label>
+             
+             <label class="label"> 
+                 
+                 <input type="hidden" name="acao" value="enviar"> 
+                 <button type="submit" class="botao"> Enviar </button>
+             
+             </label>
+         </form>
+        </article>
+        <footer class="rodape">
+           <p>&copy; Copyright 2022 - All rights reserved.</p>  
+        </footer>
+    
+</body>
+</html>
